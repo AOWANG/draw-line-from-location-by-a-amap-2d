@@ -7,10 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742FD83A1B57A7CD0093C6A1 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 742FD8391B57A7CD0093C6A1 /* AMap.bundle */; };
+		742FD8421B57A8440093C6A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8411B57A8440093C6A1 /* UIKit.framework */; };
+		742FD8441B57A84D0093C6A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8431B57A84D0093C6A1 /* CoreFoundation.framework */; };
+		742FD8461B57A8540093C6A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8451B57A8540093C6A1 /* CoreGraphics.framework */; };
+		742FD8481B57A8610093C6A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8471B57A8610093C6A1 /* QuartzCore.framework */; };
+		742FD84A1B57A8AF0093C6A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8491B57A8AF0093C6A1 /* OpenGLES.framework */; };
+		742FD84C1B57A8B70093C6A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */; };
+		742FD84E1B57A8D10093C6A1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */; };
+		742FD8501B57A8D90093C6A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */; };
+		742FD8521B57A8E90093C6A1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8511B57A8E90093C6A1 /* libz.dylib */; };
+		742FD8541B57A8F30093C6A1 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */; };
+		742FD8561B57A8FB0093C6A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8551B57A8FB0093C6A1 /* Security.framework */; };
+		742FD85A1B57AA520093C6A1 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8591B57AA520093C6A1 /* BaseMapViewController.m */; };
+		742FD8611B57AAB60093C6A1 /* DrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8601B57AAB60093C6A1 /* DrawLineViewController.m */; };
+		742FD8641B57AB250093C6A1 /* MAMutablePolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */; };
+		742FD8671B57AB2E0093C6A1 /* MAMutablePolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8661B57AB2E0093C6A1 /* MAMutablePolyline.m */; };
+		742FD8681B57ACFB0093C6A1 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */; };
+		742FD8691B57AD050093C6A1 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */; };
 		749127DA1B57A1DE0088F456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127D91B57A1DE0088F456 /* main.m */; };
 		749127DD1B57A1DE0088F456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127DC1B57A1DE0088F456 /* AppDelegate.m */; };
-		749127E01B57A1DE0088F456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127DF1B57A1DE0088F456 /* ViewController.m */; };
-		749127E31B57A1DE0088F456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749127E11B57A1DE0088F456 /* Main.storyboard */; };
 		749127E51B57A1DE0088F456 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749127E41B57A1DE0088F456 /* Images.xcassets */; };
 		749127E81B57A1DE0088F456 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749127E61B57A1DE0088F456 /* LaunchScreen.xib */; };
 		749127F41B57A1DE0088F456 /* iOS_2D_RecordPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127F31B57A1DE0088F456 /* iOS_2D_RecordPathTests.m */; };
@@ -27,14 +43,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		742FD8391B57A7CD0093C6A1 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../Resources/AMap.bundle; sourceTree = "<group>"; };
+		742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = ../Resources/AMapSearchKit.framework; sourceTree = "<group>"; };
+		742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = ../Resources/MAMapKit.framework; sourceTree = "<group>"; };
+		742FD8411B57A8440093C6A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		742FD8431B57A84D0093C6A1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		742FD8451B57A8540093C6A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		742FD8471B57A8610093C6A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		742FD8491B57A8AF0093C6A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		742FD8511B57A8E90093C6A1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		742FD8551B57A8FB0093C6A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		742FD8581B57AA520093C6A1 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		742FD8591B57AA520093C6A1 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		742FD85E1B57AA880093C6A1 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		742FD85F1B57AAB60093C6A1 /* DrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineViewController.h; sourceTree = "<group>"; };
+		742FD8601B57AAB60093C6A1 /* DrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineViewController.m; sourceTree = "<group>"; };
+		742FD8621B57AB250093C6A1 /* MAMutablePolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolylineRenderer.h; sourceTree = "<group>"; };
+		742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolylineRenderer.m; sourceTree = "<group>"; };
+		742FD8651B57AB2E0093C6A1 /* MAMutablePolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolyline.h; sourceTree = "<group>"; };
+		742FD8661B57AB2E0093C6A1 /* MAMutablePolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolyline.m; sourceTree = "<group>"; };
 		749127D41B57A1DE0088F456 /* iOS_2D_RecordPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_2D_RecordPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749127D81B57A1DE0088F456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749127D91B57A1DE0088F456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		749127DB1B57A1DE0088F456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		749127DC1B57A1DE0088F456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		749127DE1B57A1DE0088F456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		749127DF1B57A1DE0088F456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		749127E21B57A1DE0088F456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749127E41B57A1DE0088F456 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		749127E71B57A1DE0088F456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		749127ED1B57A1DE0088F456 /* iOS_2D_RecordPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_2D_RecordPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +83,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742FD8691B57AD050093C6A1 /* AMapSearchKit.framework in Frameworks */,
+				742FD8681B57ACFB0093C6A1 /* MAMapKit.framework in Frameworks */,
+				742FD8561B57A8FB0093C6A1 /* Security.framework in Frameworks */,
+				742FD8541B57A8F30093C6A1 /* libstdc++.6.0.9.dylib in Frameworks */,
+				742FD8521B57A8E90093C6A1 /* libz.dylib in Frameworks */,
+				742FD8501B57A8D90093C6A1 /* SystemConfiguration.framework in Frameworks */,
+				742FD84E1B57A8D10093C6A1 /* CoreTelephony.framework in Frameworks */,
+				742FD84C1B57A8B70093C6A1 /* CoreLocation.framework in Frameworks */,
+				742FD84A1B57A8AF0093C6A1 /* OpenGLES.framework in Frameworks */,
+				742FD8481B57A8610093C6A1 /* QuartzCore.framework in Frameworks */,
+				742FD8461B57A8540093C6A1 /* CoreGraphics.framework in Frameworks */,
+				742FD8441B57A84D0093C6A1 /* CoreFoundation.framework in Frameworks */,
+				742FD8421B57A8440093C6A1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +109,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742FD8571B57AA520093C6A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				742FD85F1B57AAB60093C6A1 /* DrawLineViewController.h */,
+				742FD8601B57AAB60093C6A1 /* DrawLineViewController.m */,
+				742FD8581B57AA520093C6A1 /* BaseMapViewController.h */,
+				742FD8591B57AA520093C6A1 /* BaseMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		742FD85B1B57AA5C0093C6A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				742FD8651B57AB2E0093C6A1 /* MAMutablePolyline.h */,
+				742FD8661B57AB2E0093C6A1 /* MAMutablePolyline.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		742FD85C1B57AA6A0093C6A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				742FD8621B57AB250093C6A1 /* MAMutablePolylineRenderer.h */,
+				742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		742FD85D1B57AA880093C6A1 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				742FD85E1B57AA880093C6A1 /* APIKey.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		749127CB1B57A1DE0088F456 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +167,10 @@
 		749127D61B57A1DE0088F456 /* iOS_2D_RecordPath */ = {
 			isa = PBXGroup;
 			children = (
-				749127DB1B57A1DE0088F456 /* AppDelegate.h */,
-				749127DC1B57A1DE0088F456 /* AppDelegate.m */,
-				749127DE1B57A1DE0088F456 /* ViewController.h */,
-				749127DF1B57A1DE0088F456 /* ViewController.m */,
-				749127E11B57A1DE0088F456 /* Main.storyboard */,
+				742FD8571B57AA520093C6A1 /* Controller */,
+				742FD85B1B57AA5C0093C6A1 /* Model */,
+				742FD85C1B57AA6A0093C6A1 /* View */,
+				742FD85D1B57AA880093C6A1 /* Configuration */,
 				749127E41B57A1DE0088F456 /* Images.xcassets */,
 				749127E61B57A1DE0088F456 /* LaunchScreen.xib */,
 				749127D71B57A1DE0088F456 /* Supporting Files */,
@@ -96,6 +181,22 @@
 		749127D71B57A1DE0088F456 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				749127DB1B57A1DE0088F456 /* AppDelegate.h */,
+				749127DC1B57A1DE0088F456 /* AppDelegate.m */,
+				742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */,
+				742FD8511B57A8E90093C6A1 /* libz.dylib */,
+				742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */,
+				742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */,
+				742FD8491B57A8AF0093C6A1 /* OpenGLES.framework */,
+				742FD8471B57A8610093C6A1 /* QuartzCore.framework */,
+				742FD8451B57A8540093C6A1 /* CoreGraphics.framework */,
+				742FD8431B57A84D0093C6A1 /* CoreFoundation.framework */,
+				742FD8411B57A8440093C6A1 /* UIKit.framework */,
+				742FD8551B57A8FB0093C6A1 /* Security.framework */,
+				742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */,
+				742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */,
+				742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */,
+				742FD8391B57A7CD0093C6A1 /* AMap.bundle */,
 				749127D81B57A1DE0088F456 /* Info.plist */,
 				749127D91B57A1DE0088F456 /* main.m */,
 			);
@@ -199,8 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749127E31B57A1DE0088F456 /* Main.storyboard in Resources */,
 				749127E81B57A1DE0088F456 /* LaunchScreen.xib in Resources */,
+				742FD83A1B57A7CD0093C6A1 /* AMap.bundle in Resources */,
 				749127E51B57A1DE0088F456 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749127E01B57A1DE0088F456 /* ViewController.m in Sources */,
+				742FD8611B57AAB60093C6A1 /* DrawLineViewController.m in Sources */,
 				749127DD1B57A1DE0088F456 /* AppDelegate.m in Sources */,
+				742FD8671B57AB2E0093C6A1 /* MAMutablePolyline.m in Sources */,
+				742FD8641B57AB250093C6A1 /* MAMutablePolylineRenderer.m in Sources */,
+				742FD85A1B57AA520093C6A1 /* BaseMapViewController.m in Sources */,
 				749127DA1B57A1DE0088F456 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		749127E11B57A1DE0088F456 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				749127E21B57A1DE0088F456 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		749127E61B57A1DE0088F456 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,8 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
+				);
 				INFOPLIST_FILE = iOS_2D_RecordPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
+				);
 				INFOPLIST_FILE = iOS_2D_RecordPath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +524,7 @@
 				749127F91B57A1DE0088F456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		749127FA1B57A1DE0088F456 /* Build configuration list for PBXNativeTarget "iOS_2D_RecordPathTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +533,7 @@
 				749127FC1B57A1DE0088F456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
