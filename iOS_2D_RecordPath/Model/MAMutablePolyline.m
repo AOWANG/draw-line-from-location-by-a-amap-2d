@@ -10,7 +10,7 @@
 
 @interface MAMutablePolyline()
 
-@property (nonatomic, readwrite)  CLLocationCoordinate2D coordinate;
+@property (nonatomic, readwrite) CLLocationCoordinate2D coordinate;
 
 @property (nonatomic, readwrite) MAMapRect boundingMapRect;
 

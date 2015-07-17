@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "DrawLineViewController.h"
+#import "MainViewController.h"
 #import "APIKey.h"
 
 @interface AppDelegate ()
@@ -37,14 +37,12 @@
     
     [self configureAPIKey];
     
-    DrawLineViewController *mainViewController = [[DrawLineViewController alloc] init];
+    MainViewController *mainViewController = [[MainViewController alloc] init];
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    return YES;
     
     return YES;
 }
